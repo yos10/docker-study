@@ -48,3 +48,18 @@ Windows の場合
 https://www.docker.com/blog/file-sharing-with-docker-desktop/
 
 公式ブログにファイル共有のベストプラクティスが公開されていたのでメモ。
+
+> - Large, static dependency trees or libraries could be moved into a named volume, or WSL, or even baked into the container image
+
+- 名前つきボリューム
+
+  - デメリット
+    - インテリセンスの入力候補が表示されない
+
+- イメージに含む
+
+  - デメリット
+    - インテリセンスの入力候補が表示されない
+
+- VS Code の devcontainer
+  - インテリセンスの入力候補が表示される
